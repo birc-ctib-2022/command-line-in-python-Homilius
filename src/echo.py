@@ -1,6 +1,6 @@
 import sys
 
-x = (sys.stdin.read() if len(sys.argv) < 2 else sys.argv[1])
+x = sys.stdin.read() if len(sys.argv) < 2 else sys.argv[1]
 x = x.strip()
 
 def split_args(args):
